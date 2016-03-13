@@ -1,5 +1,6 @@
 package timestampsgroovy
 
+@Secured(['permitAll'])
 class PublicController {
 
     def index() { 
